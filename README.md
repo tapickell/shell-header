@@ -27,7 +27,9 @@ not passed in.
 
 For example:
 
-    $ shell-header "Text to be displyed in header" 1
+```
+$ shell-header "Text to be displyed in header" 1
+```
 
 Will output like this:
 
