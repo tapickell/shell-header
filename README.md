@@ -20,7 +20,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The gem takes 1 to 2 parameters, the first being the text to display and
+the second the number of spaces above the header. The number of spaces
+parameter will default ta a value of 2 spaces if a second parameter is
+not passed in.
+
+For example:
+
+   $ shell-header "Text to be displyed in header" 1
+
+Will output like this:
+
+```ruby
+
+===================================
+Text to be displayed in header
+===================================
+```
 
 ## Contributing
 
