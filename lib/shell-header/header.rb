@@ -2,7 +2,8 @@ module ShellHeader
   class Header
     BAR = "# ====================================================="
 
-    def self.create string, lines=2
+    def self.create string, lines
+      lines = 2 unless lines
       lines.to_i.times { puts " " }
       puts BAR
       puts "# #{string}"
