@@ -1,0 +1,5 @@
+#!/isr/bin/evn ruby
+
+require 'shell-header'
+
+puts ShellHeader::Header.create ARGV[0], ARGV[1]

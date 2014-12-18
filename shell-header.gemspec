@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'shell/header/version'
+require 'shell-header/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "shell-header"
-  spec.version       = Shell::Header::VERSION
+  spec.version       = ShellHeader::VERSION
   spec.authors       = ["Todd Pickell"]
   spec.email         = ["tapickell@gmail.com"]
   spec.summary       = %q{This Gem is for easily rendering shell headers to make output to logs and consoles cleaner.}
