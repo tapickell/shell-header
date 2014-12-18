@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Shell::Header::VERSION
   spec.authors       = ["Todd Pickell"]
   spec.email         = ["tapickell@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{This Gem is for easily rendering shell headers to make output to logs and consoles cleaner.}
+  spec.description   = %q{This Gem was developed specificaly for use with automating Jenkins and needing to have a cleaner console output to help debug when things go wrong.}
+  spec.homepage      = "https://github.sw.ge.com/gr-cloud-services/shell_header"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
