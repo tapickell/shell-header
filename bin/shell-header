@@ -1,4 +1,4 @@
-#!/isr/bin/evn ruby
+#!/usr/bin/evn ruby
 
 require 'shell-header'
 
